@@ -1,0 +1,59 @@
+/* ONLY active when light mode is enabled */
+.light-mode {
+    background: linear-gradient(135deg, #fdfdfd 0%, #f0f0f0 50%, #fdfdfd 100%);
+}
+
+/* App container */
+.light-mode.app-container {
+    background: linear-gradient(135deg, #fdfdfd 0%, #f0f0f0 50%, #fdfdfd 100%);
+}
+
+/* Cards */
+.light-mode .card {
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(212, 90, 48, 0.2);
+}
+
+/* Text */
+.light-mode .app-title {
+    color: #111;
+}
+
+.light-mode .app-subtitle {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* Inputs */
+.light-mode .todo-input {
+    background: rgba(0, 0, 0, 0.03);
+    color: #111;
+}
+
+/* Todo items */
+.light-mode .todo-item {
+    background: rgba(0, 0, 0, 0.02);
+}
+
+.light-mode .todo-title {
+    color: #111;
+}
+
+.light-mode .todo-title-completed {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+/* Status text */
+.light-mode .loading-message,
+.light-mode .empty-message,
+.light-mode .remaining-count {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+/* Auth screens */
+.light-mode .auth-container {
+    background: linear-gradient(135deg, #fdfdfd 0%, #f0f0f0 50%, #fdfdfd 100%);
+}
+
+.light-mode .auth-card {
+    background: rgba(255, 255, 255, 0.95);
+}
